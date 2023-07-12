@@ -25,6 +25,7 @@ Welp. the title says it all - qemu with noVNC running in a docker container.
 
 ## Changing the virtual disk's size
 **In *stsrv.sh*:**
+
 ![1141234123123](https://github.com/wawaloll/docker-qemuvnc/assets/126290309/ade4c826-251c-4cec-a611-a48db07adee4)
 
 ## Replacing the iso and changing the RAM:
