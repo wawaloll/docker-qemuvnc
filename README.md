@@ -5,6 +5,7 @@
 
 ## Another day, another sh*tty project.
 
+### ‼THIS PROJECT IS IN BETA, PLEASE REPORT ANY ISSUES THAT YOU WILL FIND‼
 Welp. the title says it all - qemu with noVNC running in a docker container.
 
 
