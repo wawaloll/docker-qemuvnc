@@ -7,7 +7,7 @@ qemu-img create -f qcow2 $disk 10G
 
 echo "token1: localhost:5900" > /opt/noVNC/vnc_tokens
 
-/usr/bin/qemu-system-x86_64 -vnc :0 -m 2048 -smp 2 -device virtio-net,netdev=vmnic -netdev user,id=vmnic -cdrom /iso/debian.iso -drive file=$disk -boot d -usbdevice tablet &
+/usr/bin/qemu-system-x86_64 -vnc :0 -m 2048 -smp 2 -device virtio-net,netdev=vmnic -netdev user,id=vmnic -cdrom /iso/debian.iso -drive file=$disk -boot d &
 
 /usr/bin/Xvfb :1 -screen 0 1024x768x24+32 &
 
