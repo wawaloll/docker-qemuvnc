@@ -1,0 +1,1 @@
+docker build -t dockerqemuvnc . && docker run -d -p 5900:5900 -p 6080:6080 dockerqemuvnc

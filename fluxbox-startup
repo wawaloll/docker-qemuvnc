@@ -1,0 +1,5 @@
+#!/bin/sh
+
+/usr/bin/qemu-system-x86_64 -vnc :0 -m 2048 -enable-kvm -smp 2 -device virtio-net,netdev=vmnic -netdev user,id=vmnic -cdrom /iso/debian.iso -boot d &
+
+exec fluxbox -log /tmp/fluxbox.log
