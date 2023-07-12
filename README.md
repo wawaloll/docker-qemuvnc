@@ -19,6 +19,7 @@ Welp. the title says it all - qemu with noVNC running in a docker container.
   docker build -t <any name>
   docker run -d -p 5900:5900 -p 6080:6080 <the name that u specified in the first cmd>
 ```
+### (or you could use the buildandrun.bat file in the repo)
     
 ## Replacing the iso:
 **In *dockerfile*:**
@@ -30,3 +31,7 @@ Welp. the title says it all - qemu with noVNC running in a docker container.
 **In *dockerfile*:**
 
 ![image3](https://github.com/wawaloll/docker-qemuvnc/assets/126290309/85334bae-62f0-485a-bcd4-e357542352f8)
+
+### Or... you can remove it.
+**In *stsrv.sh*:**
+![image4](https://github.com/wawaloll/docker-qemuvnc/assets/126290309/8cad931d-dc36-4c79-8e01-7f32c66ab85e)
