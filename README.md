@@ -28,4 +28,5 @@ Welp. the title says it all - qemu with noVNC running in a docker container.
 
 ## Editing the password
 **In *dockerfile*:**
+
 ![image3](https://github.com/wawaloll/docker-qemuvnc/assets/126290309/85334bae-62f0-485a-bcd4-e357542352f8)
