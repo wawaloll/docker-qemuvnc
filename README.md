@@ -36,7 +36,7 @@ Welp. the title says it all - qemu with noVNC running in a docker container.
 **In *stsrv.sh*:**
 ![image2](https://cdn.discordapp.com/attachments/1128662430248083459/1128664557070602310/6fd75eb3d07f2c55.png)
 
-## Editing the password
+## Editing the password (its broken rn 😭 💀)
 **In *dockerfile*:**
 
 ![image3](https://cdn.discordapp.com/attachments/1128662430248083459/1128664852714487948/5291bae8a0f38151.png)
