@@ -21,7 +21,7 @@ Welp. the title says it all - qemu with noVNC running in a docker container.
 ```
 ### (or you could use the buildandrun.bat file in the repo)
     
-## Replacing the iso:
+## Replacing the iso and changing the RAM:
 **In *dockerfile*:**
 ![image](https://github.com/wawaloll/docker-qemuvnc/assets/126290309/fe40e74d-29d8-471c-8801-253de9ffc084)
 **In *stsrv.sh*:**
