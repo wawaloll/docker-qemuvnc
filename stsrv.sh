@@ -13,7 +13,7 @@ echo "token1: localhost:5900" > /opt/noVNC/vnc_tokens
 
 DISPLAY=:1 qemu-system-x86_64 -cdrom /iso/debian.iso -m 512 -boot d -display gtk  &
 
-/usr/bin/x11vnc -display :1 -rfbport 5900 -usepw -forever -shared -noxrecord -noxdamage -xkb &
+/usr/bin/x11vnc -display :1 -rfbport 5900 -usepw /root/.vnc/passwd -forever -shared -noxrecord -noxdamage -xkb &
 
 /usr/bin/python3 -m websockify.websocketproxy --web /opt/noVNC 5901 127.0.0.1:5900 &
 
